@@ -1,0 +1,10 @@
+.document a p {
+  text-align: center;
+  font-weight: 500;
+  color: black;
+}
+
+.document a p:hover {
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}

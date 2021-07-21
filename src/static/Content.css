@@ -1,0 +1,52 @@
+.container .section p {
+  text-align: left !important;
+}
+
+.section {
+  margin: 0;
+}
+
+.video {
+  margin: 2% auto 50px !important;
+}
+
+.container {
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.btn-success {
+  background-image: linear-gradient(90deg, #67e37f, #00a99d);
+  border: none;
+  border-radius: 5rem;
+  width: 12rem;
+  font-weight: 600;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+}
+
+@media (max-width: 640px) {
+  .w-60 {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 640px) {
+  #nav-avance {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 640px) {
+  #logo {
+    width: 50%;
+    margin-right: 0 !important;
+  }
+}

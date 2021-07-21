@@ -1,0 +1,48 @@
+.bg-grey {
+  background: #f1f5f8;
+  color: #1a1a1a;
+}
+
+.titles img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 5%;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.pdfs {
+  display: flex;
+  flex-flow: row;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.document {
+  display: flex;
+  flex-flow: column;
+  width: 15rem;
+  margin: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-success {
+  background-image: linear-gradient(90deg, #67e37f, #00a99d);
+  border: none !important;
+  border-radius: 5rem !important;
+  width: 12rem;
+  font-weight: 600;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+}
+
+@media (max-width: 640px) {
+  .titles img {
+    width: 15% !important;
+  }
+}

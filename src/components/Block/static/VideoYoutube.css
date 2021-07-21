@@ -1,0 +1,10 @@
+.w-60 {
+  width: 60% !important;
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .w-60 {
+    width: 90% !important;
+  }
+}

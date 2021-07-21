@@ -1,0 +1,64 @@
+.progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.navbar-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: #fafafa;
+  color: #1a1a1a;
+  padding: 0 3%;
+  z-index: 999;
+  height: 50px;
+}
+
+.top {
+  width: 100%;
+  top: 0;
+  right: 0;
+  position: fixed;
+}
+
+.navbar {
+  background: #fafafa;
+  color: #1a1a1a;
+  padding: 0 5%;
+}
+
+.nav-item a {
+  color: #1a1a1a;
+}
+
+.res {
+  flex-direction: row !important;
+}
+
+.labelStyles {
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  #avance {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  #logo img {
+    width: 75%;
+  }
+}

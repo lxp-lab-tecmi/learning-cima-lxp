@@ -1,0 +1,25 @@
+.row button {
+  border-style: none;
+  background: none;
+}
+
+.row {
+  display: block !important;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.resources-text {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .titles img {
+    height: 20% !important;
+  }
+}
